@@ -1,0 +1,33 @@
+[
+    {
+      "image": "img site vêtement/il_1588xN.4655214830_8bgl.jpg",
+      "price": "24 €",
+      "composition": "Lin"
+    },
+    {
+      "image": "img site vêtement/il_1588xN.4655214830_8bgl.jpg",
+      "price": "42 €",
+      "composition": "cachemire"
+    },
+    {
+      "image": "img site vêtement/il_1588xN.4655214830_8bgl.jpg",
+      "price": "33 €",
+      "composition": "coton"
+    },
+    {
+        "image": "img site vêtement/il_1588xN.4655214830_8bgl.jpg",
+        "price": "24 €",
+        "composition": "Lin"
+    },
+     {
+        "image": "img site vêtement/il_1588xN.4655214830_8bgl.jpg",
+        "price": "42 €",
+        "composition": "cachemire"
+      },
+      {
+        "image": "img site vêtement/il_1588xN.4655214830_8bgl.jpg",
+        "price": "33 €",
+        "composition": "coton"
+      }
+  ]
+  
