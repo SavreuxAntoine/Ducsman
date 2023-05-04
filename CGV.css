@@ -1,16 +1,17 @@
 .CGVpdf {
-  width: 50vw;
-  height: 140vh;
+  width: 80vw;
+  height: 200vh;
 }
 .CGV {
   width: 100%;
   right: 0%;
   position: absolute;
-  margin-top: 12vw;
+  margin-top: 2vw;
+  margin-left: 10vw;
   text-align: center;
 }
 h1 {
   color: #3c53c7;
   font-weight: 900;
-  font-size: 40px;
+  font-size: 100%;
 }
