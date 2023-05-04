@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>Contact</title>
+  </head>
+
+  <body>
+    <header>
+    </header>
+
+    <div id="myModal" class="modal">
+      <section>
+          <span class="close">&times;</span>
+          <h4 class="centrer">Contactez moi</h4>
+          <form action="index.html" onsubmit="checkForm()" method="post" class="contact">
+              <p>Veuillez remplir le formulaire. Tous les champs sont obligatoires.</p>
+              <div class="contactRow">
+                  <label for="prenom" class="contact">Prénom : </label>
+                  <input type="text" id="prenom" name="prenom" maxlength="150" size="30" class="contact">
+                  <span class="error prenomError">Le prénom n'est pas valide.</span>
+              </div>
+              <div class="contactRow">
+                  <label for="nom" class="contact">Nom : </label>
+                  <input type="text" id="nom" name="nom" maxlength="150" size="30" class="contact">
+                  <span class="error nomError">Le nom n'est pas valide.</span>
+              </div>
+              <div class="contactRow">
+                  <label for="email" class="contact">Email : </label>
+                  <input type="email" id="email" name="email" maxlength="150" size="30" class="contact">
+                  <span class="error emailError">L'email n'est pas valide.</span>
+              </div>
+              <div class="contactRow">
+                  <label for="commentaire" class="contact">Votre commentaire : </label>
+                  <textarea id="commentaire" name="commentaire" class="contact"></textarea>
+                  <span class="error commentaireError">Le message n'est pas valide.</span>
+              </div>
+              <button type="submit" class="contact submitButton">Envoyer</button>
+          </form>
+      </section>
+  </div>
+
+
+    <script src="js/contact.js"></script>
+  </body>
+</html>
