@@ -8,6 +8,7 @@
 body {
   overflow-x: hidden;
   font-family: "Maitree", serif;
+  background-color: #000000;
 }
 /* Titres et logos */
 
@@ -100,7 +101,12 @@ font-family: 'Amiri', serif;
   text-align: center;
   color: #000000;
 }
-
+header .GIF{
+  width: 80%;
+  height: 30em;
+  transform: translateX(25%);
+  background-size: cover;
+}
 footer {
   display: flex;
   justify-content: space-around;
