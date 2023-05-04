@@ -8,7 +8,7 @@
 body {
   overflow-x: hidden;
   font-family: "Maitree", serif;
-  background-color: #233747 ;
+  background-color: #233747;
 }
 /* Titres et logos */
 
@@ -84,7 +84,6 @@ font-family: 'Amiri', serif;
 .sidebar .maps {
   display: flex;
   margin: auto;
-  padding-top: 0;
   border: none;
 }
 .wrapper .sidebar .social_media {
@@ -102,6 +101,14 @@ font-family: 'Amiri', serif;
   height: 50px;
   text-align: center;
   color: #000000;
+}
+
+.social_media a i {
+  transition: all 0.2s ease-in-out;
+}
+
+.social_media a:hover i {
+  transform: scale(1.5);
 }
 header .GIF {
   width: 80%;
