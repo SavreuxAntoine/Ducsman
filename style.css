@@ -8,7 +8,7 @@
 body {
   overflow-x: hidden;
   font-family: "Maitree", serif;
-  background-color: #000000;
+  background-color: #233747 ;
 }
 /* Titres et logos */
 
@@ -103,15 +103,16 @@ font-family: 'Amiri', serif;
 }
 header .GIF{
   width: 80%;
-  height: 30em;
+  height: 15em;
   transform: translateX(25%);
   background-size: cover;
+  object-fit: cover;
 }
 footer {
   display: flex;
   justify-content: space-around;
   height: 15em;
-  margin 20%;
+  margin-left: 20%;
 
   display: flex;
   background: #5e5e5e;
