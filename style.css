@@ -64,11 +64,13 @@ font-family: 'Amiri', serif;
   font-weight: 300;
   transform: translateY(-50px);
 }
-
+.wrapper .sidebar ul {
+  transform: translateY(-50px);
+}
 .wrapper .sidebar ul li {
   padding: 15px;
   margin-left: 3rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .wrapper .sidebar ul li a {
@@ -85,7 +87,7 @@ font-family: 'Amiri', serif;
 .sidebar .maps {
   display: flex;
   margin: auto;
-  padding-top: 15%;
+  padding-top: 0;
   border: none;
 }
 .wrapper .sidebar .social_media {
