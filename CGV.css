@@ -1,0 +1,16 @@
+.CGVpdf {
+  width: 50vw;
+  height: 140vh;
+}
+.CGV {
+  width: 100%;
+  right: 0%;
+  position: absolute;
+  margin-top: 12vw;
+  text-align: center;
+}
+h1 {
+  color: #3c53c7;
+  font-weight: 900;
+  font-size: 40px;
+}
