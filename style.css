@@ -1,3 +1,6 @@
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -8,8 +11,8 @@
 body {
   font-family: "Maitree", serif;
 }
-/* Titres et logos
-font-family: 'Italianno', cursive;
+/* Titres et logos */
+
 
 Sous-titres, slogan et liens nav bar 
 font-family: 'Amiri', serif;
@@ -42,6 +45,23 @@ font-family: 'Amiri', serif;
       #989898;
   background-blend-mode: multiply, multiply;
   position: fixed;
+}
+.wrapper .sidebar h2{
+  font-family: 'Italianno', cursive;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 0;
+  font-size: 6em;
+  font-weight: 300;
+}
+.wrapper .sidebar h3{
+  font-family: 'Amiri', serif;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2em;
+  font-weight: 300;
+  transform: translateY(-50px);
 }
 
 .wrapper .sidebar ul li {
