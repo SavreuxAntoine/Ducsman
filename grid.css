@@ -1,5 +1,8 @@
 .image {
   width: 100%;
+  height: 20em;
+  object-fit: cover;
+  display: block;
 }
 .article-preview {
   display: grid;
@@ -7,27 +10,21 @@
   gap: 2rem;
   margin-left: 30%;
   margin-right: 10%;
+  margin-bottom: 5rem;
 }
 .article-preview-grid {
   width: 100%;
 }
 .container_info {
-  display: inline-flex;
-  float: right;
+  display: flex;
+  flex-direction: row-reverse;
+  padding-right: 5px;
   background-color: red;
-  padding: 10px;
-  margin-right: 10px;
-  border-radius: 10px;
-  transform: translateY(3rem);
 }
 .container_price {
-  display: inline-flex;
-  float: left;
+  display:flex;
   background-color: red;
-  padding: 10px;
-  margin-left: 10px;
-  border-radius: 10px;
-  transform: translateY(-3rem);
+
 }
 /*
   .article-preview-grid {
