@@ -14,9 +14,9 @@ body {
 /* Titres et logos */
 
 
-Sous-titres, slogan et liens nav bar 
+/* Sous-titres, slogan et liens nav bar 
 font-family: 'Amiri', serif;
-*/
+*/ 
 
 /* Nav Link */
 .logo {
@@ -105,11 +105,8 @@ font-family: 'Amiri', serif;
 }
 
 footer {
-  margin: 0, 0, 0, 20%;
-  width: 20% 80%;
-  background: linear-gradient(
-    to bottom,
-    rgba(255, 255, 255, 0.15) 0%,
-    rgba(0, 0, 0, 0.15) 100%
-  );
+  height: 15em;
+  transform: translateX(20%);
+  display: flex;  
+  background: red;
 }
