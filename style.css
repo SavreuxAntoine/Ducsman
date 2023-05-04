@@ -101,7 +101,7 @@ font-family: 'Amiri', serif;
   text-align: center;
   color: #000000;
 }
-header .GIF{
+header .GIF {
   width: 80%;
   height: 30em;
   transform: translateX(25%);
@@ -111,9 +111,8 @@ footer {
   display: flex;
   justify-content: space-around;
   height: 15em;
-  margin 20%;
+  margin-left: 20%;
 
   display: flex;
   background: #5e5e5e;
 }
-
