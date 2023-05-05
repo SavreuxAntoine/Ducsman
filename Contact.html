@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Contact.css" type="text/css" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <header></header>
+    <div id="myModal" class="modal">
+      <section>
+        <span class="fermer">&times;</span>
+        <h1 class="centrer">Contactez moi</h1>
+        <form action="TraitementHtmlContact.html" method="post" class="contact">
+          <div class="contact">
+            <strong> Vous êtes:</strong>
+            <label for="Monsieur" class="contact">Monsieur</label>
+            <input
+              type="radio"
+              id="Monsieur"
+              name="sexe"
+              value="Mr"
+              class="contact"
+              required
+            />
+            <label for="Madame" class="contact">Madame</label>
+            <input
+              type="radio"
+              id="Madame"
+              name="sexe"
+              value="Mme"
+              class="contact"
+              required
+            />
+            <label for="Indéfini" class="contact">Ne se prononce pas</label>
+            <input
+              type="radio"
+              id="Indéfini"
+              name="sexe"
+              value="MrMme"
+              class="contact"
+              required
+            />
+          </div>
+
+          <div class="contactLigne">
+            <label for="ID_nom" class="contact"> <strong> Nom </strong></label>
+            <input
+              type="text"
+              id="ID_nom"
+              name="nom"
+              pattern="[A-Za-z \-\]{1,100}"
+              maxlength="100"
+              placeholder="Ducsman"
+              class="contact"
+              required
+            />
+          </div>
+
+          <div class="contactLigne">
+            <label for="ID_prenom" class="contact">
+              <strong> Prénom </strong></label
+            >
+            <input
+              type="text"
+              id="ID_prenom"
+              name="prenom"
+              pattern="[A-Za-z \-\]{1,100}"
+              maxlength="100"
+              placeholder="Jean-louis"
+              class="contact"
+              required
+            />
+          </div>
+
+          <div class="contactLigne">
+            <label for="NumTel" class="contact">
+              <strong> N° de téléphone </strong></label
+            >
+            <input
+              type="tel"
+              id="NumTel"
+              name="tel"
+              pattern="[0-9]{10}"
+              placeholder="0604052362"
+              class="contact"
+              required
+            />
+          </div>
+
+          <div class="contactLigne">
+            <label for="ID_mail" class="contact">
+              <strong> Email </strong></label
+            >
+            <input
+              type="email"
+              id="ID_mail"
+              name="mail"
+              placeholder="ducsman@gmail.com"
+              class="contact"
+            />
+          </div>
+
+          <div class="contactLigne">
+            <label for="motifDemande" class="contact">
+              <strong> Motif de votre demande de contact: </strong>
+            </label>
+            <select id="motifDemande" name="motif_Demande">
+              <option>Informations sur un produit</option>
+              <option>Informations sur la livraison</option>
+              <option>Recrutement</option>
+              <option>Autre</option>
+            </select>
+          </div>
+
+          <div class="contactLigne">
+            <label for="commentaire" class="contact">
+              <strong> Votre commentaire </strong></label
+            >
+            <textarea
+              id="commentaire"
+              name="commentaire"
+              class="contact"
+            ></textarea>
+          </div>
+
+          <input type="submit" value="Envoyez" class="contact_submitButton" />
+        </form>
+      </section>
+    </div>
+  </body>
+</html>
