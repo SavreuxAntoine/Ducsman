@@ -126,3 +126,7 @@ footer {
   display: flex;
   background: #5e5e5e;
 }
+.lien {
+  border: 1px solid goldenrod;
+  gap: 10px
+}
