@@ -67,7 +67,7 @@ font-family: 'Amiri', serif;
 .wrapper .sidebar ul li {
   padding: 15px;
   margin-left: 3rem;
-  margin-top: 1rem;
+  padding: 0;
 }
 
 .wrapper .sidebar ul li a {
