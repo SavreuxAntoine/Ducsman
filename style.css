@@ -112,7 +112,7 @@ font-family: 'Amiri', serif;
 }
 header .GIF {
   width: 80%;
-  height: 18rem;
+  height: 40vh;
   transform: translateX(25%);
   background-size: cover;
   object-fit: cover;
