@@ -5,6 +5,15 @@
   display: block;
 }
 
+
+.logoPanier{
+  
+  position: sticky;
+  top: 5%;
+  left: 95%;
+  width: 50px;
+}
+
 .article-preview {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
