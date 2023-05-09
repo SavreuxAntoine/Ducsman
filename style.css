@@ -75,6 +75,7 @@ font-family: 'Amiri', serif;
   display: block;
   font-weight: bold;
   font-size: 1.3em;
+  padding: 1%;
 }
 
 .wrapper .sidebar ul li:hover a {
@@ -138,7 +139,6 @@ small {
 footer .lien :hover {
   color: #233747;
 }
-
 
 /* ooooooooooooooooooooo */
 
@@ -215,20 +215,25 @@ footer .lien :hover {
 }
 
 .containerNouveautee {
-  display:inline-block;
+  display: inline-block;
   justify-content: space-between;
   align-items: center;
 }
 form {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
   padding: 20px;
   background-color: #f2f2f2;
+  height: 30vh;
 }
 
 label {
-  display: block;
+  display: inline-block;
   width: 100%;
   font-weight: bold;
   color: #333;
@@ -265,4 +270,15 @@ button {
 
 button:hover {
   background-color: #555;
+}
+
+.premierLigne,
+.deuxiemeLigne{
+  display: flex;
+  width: 100vh;
+  gap: 2%;
+}
+.buttonRecherche{
+  display: flex;
+  justify-content: center;
 }
