@@ -34,18 +34,7 @@ header{
 .wrapper .sidebar {
   width: 20%;
   height: 100%;
-  background: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0.15) 0%,
-      rgba(0, 0, 0, 0.15) 100%
-    ),
-    radial-gradient(
-        at top center,
-        rgba(255, 255, 255, 0.4) 0%,
-        rgba(0, 0, 0, 0.4) 120%
-      )
-      #989898;
-  background-blend-mode: multiply, multiply;
+  background: #4b5763;
   position: fixed;
 }
 
@@ -144,28 +133,7 @@ header .GIF {
   margin-bottom: 0;
   padding-bottom:0 ;
 }
-/* footer {
-  justify-content: center;
-  height: 10%;
-  margin-left: 20%;
-  background: #233747;
-  border-top: 5px solid white;
-}
-small {
-  padding-left: 15%;
-}
-.liensCliquables {
-  display: flex;
-  
-  
-}
-.lien a {
-  color: #ffffff;
-  text-align: center;
-}
-footer .lien :hover {
-  color: #233747;
-} */
+
 .footer {
   display: flex;
   color: #fffefe;
