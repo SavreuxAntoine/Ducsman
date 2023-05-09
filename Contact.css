@@ -1,0 +1,78 @@
+section {
+  padding: 0;
+  margin: 0 auto 10% auto;
+  font-size: 100%;
+}
+
+h1 {
+  color: rgb(224, 56, 56);
+  font-family: "Abril Fatface", cursive;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+  padding: 5%;
+}
+
+.fermer {
+  color: #28033f;
+  float: right;
+  font-size: 200%;
+  font-weight: bold;
+}
+.fermer:hover,
+.fermer:focus {
+  color: rgb(238, 18, 26);
+  cursor: pointer;
+}
+
+.blur {
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+}
+
+div#myModal {
+  max-width: 60%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  background: #b8b3ce;
+  padding: 2%;
+  box-shadow: 0px 0px 10px 10px rgba(15, 15, 15, 0.836), 0 0 10px 0 #ffd700;
+  z-index: 1;
+  overflow: auto;
+}
+
+section form div.contactLigne {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: medium none;
+  margin: 0 0 0%;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+section form div.contactLigne input.contact {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #b8c4d6;
+  margin: 0 0;
+  padding: 3%;
+  border: 1px solid #aaa;
+}
+
+section form div.contactLigne textarea.contact {
+  height: 10vh;
+  width: 95%;
+  resize: vertical;
+}
+
+.contact_submitButton {
+  margin-top: 5%;
+}
