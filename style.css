@@ -26,7 +26,11 @@ font-family: 'Amiri', serif;
   display: flex;
   position: relative;
 }
-
+header{
+  margin-bottom: 0;
+  padding-bottom:  0;
+  height: 40vh;
+}
 .wrapper .sidebar {
   width: 20%;
   height: 100%;
@@ -117,6 +121,8 @@ header .GIF {
   transform: translateX(25%);
   background-size: cover;
   object-fit: cover;
+  margin-bottom: 0;
+  padding-bottom:0 ;
 }
 footer {
   justify-content: center;
@@ -145,6 +151,7 @@ footer .lien :hover {
 #category-banner-wrapper {
   background-color: #f9f9f9;
   margin-left: 20%;
+  height: 60vh;
 }
 
 .textNouveautee {
