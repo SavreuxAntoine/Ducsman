@@ -49,7 +49,7 @@ font-family: 'Amiri', serif;
   color: #fff;
   text-align: center;
   padding-bottom: 0;
-  font-size: 6em;
+  font-size: 6rem;
   font-weight: 300;
 }
 .wrapper .sidebar h3 {
@@ -57,7 +57,7 @@ font-family: 'Amiri', serif;
   color: #fff;
   text-align: center;
   margin-bottom: 30px;
-  font-size: 2em;
+  font-size: 2rem;
   font-weight: 300;
   transform: translateY(-50px);
 }
@@ -90,7 +90,7 @@ font-family: 'Amiri', serif;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 2em;
+  margin-top: 10%;
   font-size: 2em;
   gap: 1em;
 }
