@@ -12,14 +12,14 @@ listeArticle = "";
 
 // La fonction article génére un article seulement
 function article(image, image2, price, composition, description) {
-  return `<div class="article-preview-grid">
+  return `<a href="#" class="article-preview-grid">
       <div class="container_info">
         <span>${composition}</span>
       </div>
       <img class="image" src="${image}" alt="article" />
       <span class="container_price">${price}</span>
       <span class="container_description">${description}</span>
-    </div>`;
+    </a>`;
 }
 // Après l'envoie de la request
 request.onload = function () {
