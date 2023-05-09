@@ -82,6 +82,7 @@ header{
   padding: 15px;
   margin-left: 1rem;
   padding: 0;
+  
 }
 
 .wrapper .sidebar ul li a {
@@ -174,13 +175,14 @@ footer .lien :hover {
 }
 
 .textNouveautee {
+  display: flex;
+  flex-direction: column;
   margin: 0 ;
   text-align: center;
   color: #000000;
 }
 
 .titreNouveautee {
-  margin-bottom: 10px;
   font-size: 40px;
   font-weight: bold;
   color:white ;
@@ -207,7 +209,7 @@ footer .lien :hover {
 .buttonNews {
   display: inline-block;
   border-radius: 3px;
-  padding: 20px;
+  padding: 10px;
   background-color: #4b5763;  
   max-width: 800px;
   width: 100%;
@@ -218,7 +220,7 @@ footer .lien :hover {
 .listNouveautes {
   display: flex;
   list-style-type: none;
-  margin: 5% 0;
+  margin: 0;
   padding: 0;
 }
 
@@ -244,13 +246,7 @@ footer .lien :hover {
   font-weight: bold;
 }
 
-.containerNouveautee {
-  display: inline-block;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  height: 100px;
-}
+
 .formHead {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
@@ -258,7 +254,7 @@ footer .lien :hover {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin: 0 ;
+  padding-right: 20px;
   background-color: #233747;
   height: 30vh;
   width: 100%;
@@ -284,13 +280,14 @@ input[type="text"] {
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 16px;
-  height: 50px;
+  height: 40px;
 }
 
 select:focus,
 input[type="text"]:focus {
   outline: none;
   box-shadow: 0 0 4px #ccc;
+  
 }
 
 button {
