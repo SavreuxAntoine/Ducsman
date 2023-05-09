@@ -220,18 +220,20 @@ footer .lien :hover {
   align-items: center;
 }
 form {
-  display: flex;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  max-width: 800px;
   padding: 20px;
   background-color: #f2f2f2;
+  height: 30vh;
 }
 
 label {
-  display: block;
+  display: inline-block;
   width: 100%;
   margin-bottom: 10px;
   font-weight: bold;
@@ -269,4 +271,15 @@ button {
 
 button:hover {
   background-color: #555;
+}
+
+.premierLigne,
+.deuxiemeLigne{
+  display: flex;
+  width: 100vh;
+  gap: 2%;
+}
+.buttonRecherche{
+  display: flex;
+  justify-content: center;
 }
