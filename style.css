@@ -234,9 +234,11 @@ form {
 }
 
 label {
-  display: inline-block;
-  width: 100%;
-  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 200px;
   font-weight: bold;
   color: #333;
 }
@@ -244,14 +246,14 @@ label {
 select,
 input[type="text"] {
   display: block;
-  justify-content: center;
+  justify-content: start;
   text-align: center;
-  width: 100%;
+  width: 200px;
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 16px;
-  margin-bottom: 20px;
+  height: 50px;
 }
 
 select:focus,
@@ -279,8 +281,8 @@ button:hover {
 .premierLigne,
 .deuxiemeLigne{
   display: flex;
-  width: 100vh;
-  gap: 2%;
+  width: 100%;
+  gap: 3%;
 }
 .buttonRecherche{
   display: flex;
