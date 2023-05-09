@@ -48,6 +48,15 @@ header{
   background-blend-mode: multiply, multiply;
   position: fixed;
 }
+
+.wrapper .sidebar a {
+  padding: 18px 0;
+  border-left: 1px solid #ccc9c9;
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
 .wrapper .sidebar h2 {
   font-family: "Italianno", cursive;
   color: #fff;
@@ -69,9 +78,11 @@ header{
   transform: translateY(-50px);
 }
 .wrapper .sidebar ul li {
+  list-style: none;
   padding: 15px;
-  margin-left: 3rem;
+  margin-left: 1rem;
   padding: 0;
+  align-items: left;
 }
 
 .wrapper .sidebar ul li a {
@@ -80,6 +91,13 @@ header{
   font-weight: bold;
   font-size: 1.3em;
   padding: 1%;
+}
+
+.navbar li ul {
+  display: none;
+  height: auto;
+  margin: 0;
+  padding: 0;
 }
 
 .wrapper .sidebar ul li:hover a {

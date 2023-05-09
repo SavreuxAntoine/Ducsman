@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  width: 100%;
+}
+.wrapper .sidebar {
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(0, 0, 0, 0.15) 100%
+    ),
+    radial-gradient(
+        at top center,
+        rgba(255, 255, 255, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 120%
+      )
+      #989898;
+  background-blend-mode: multiply, multiply;
+  position: relative;
+  z-index: 99;
+  height: auto;
+  width: 135.8px;
+  float: left;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper .sidebar h2 {
+  font-family: "Italianno", cursive;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 0px;
+  font-size: 3rem;
+  font-weight: 300;
+}
+.wrapper .sidebar h3 {
+  font-family: "Amiri", serif;
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 300;
+}
+.wrapper .sidebar ul {
+  padding: 5px;
+  margin-left: 3rem;
+  padding: 0;
+}
+.wrapper .sidebar ul li {
+  list-style: none;
+}
+
+.wrapper .sidebar ul li a {
+  color: #ffffff;
+  display: block;
+  font-weight: bold;
+  font-size: 1.3em;
+  padding: 1%;
+}
+
+.wrapper .sidebar ul li:hover a {
+  color: #233747;
+}
+
+.sidebar .maps {
+  display: flex;
+  margin: auto;
+  border: none;
+}
+.wrapper .sidebar .social_media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  font-size: 2em;
+  gap: 1em;
+}
+
+.wrapper .sidebar .social_media a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  color: #000000;
+}
+
+.social_media a i {
+  transition: all 0.2s ease-in-out;
+}
+
+.social_media a:hover i {
+  transform: scale(1.5);
+}
+
+header .GIF {
+  display: none;
+}
+
+#category-banner-wrapper {
+  background-color: #f9f9f9;
+  margin-left: 20%;
+}
+
+.textNouveautee {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.titreNouveautee {
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.descriptionText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
+.containerText {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.descriptionTexte {
+  margin: 0;
+}
+
+.buttonNews {
+  display: inline-block;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px;
+  padding: 20px;
+  background-color: #ffffff;
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+}
