@@ -250,7 +250,7 @@ footer .lien :hover {
   align-items: center;
   height: 100px;
 }
-form {
+.formHead {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   flex-direction: row;
