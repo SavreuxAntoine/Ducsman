@@ -4,11 +4,54 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="Contact.css" type="text/css" />
+    <link rel="stylesheet" href="Contact.css" id="btnContact" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amiri:ital@1&family=Italianno&family=Maitree:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
     <title>Contact</title>
   </head>
   <body>
-    <header id="header"></header>
+    <header>
+      <div class="wrapper">
+        <div class="sidebar">
+          <h2>Ducsman</h2>
+          <h3>Sapés comme jamais.</h3>
+          <ul>
+            <li><a href="index.html#AncreBoutique">BOUTIQUE</a></li>
+            <li><a href="àpropos.html">A PROPOS</a></li>
+            <li><a href="Contact.html" id="btn">CONTACT</a></li>
+            <li><a href="#">SAV</a></li>
+          </ul>
+
+          <iframe
+            class="maps"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5249.611450379503!2d2.3360993543718576!3d48.86191489795094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e18a5f84801%3A0x6eb5daa624bdebd2!2sLes%20Halles%2C%2075001%20Paris%2C%20France!5e0!3m2!1sfr!2sus!4v1683203673143!5m2!1sfr!2sus"
+            width="90%"
+            height="30%"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <div class="social_media">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <video autoplay muted loop class="GIF">
+        HEAD
+        <source src="video/Video bannière.mp4" type="video/mp4" />
+        =======
+        <source src="video/Video bannière.mp4" type="video/mp4" />
+        >>>>>>> da9d19b6b5ce69def9591d205ef4699d2747981b
+      </video>
+    </header>
     <div id="myModal" class="modal">
       <section>
         <span class="fermer">&times;</span>
@@ -130,7 +173,25 @@
         </form>
       </section>
     </div>
-    <footer id="footer"></footer>
+    <footer>
+      <small>Copyright © 2023 Simplon. Tous droits réservés.</small>
+      <div class="Placemment">
+        <ul class="liensCliquables">
+          <li class="lien">
+            <a href="CGU.html">Conditions générales d'utilisation</a>
+          </li>
+          <li class="lien">
+            <a href="CGV.html">Conditions générales de vente</a>
+          </li>
+          <li class="lien">
+            <a href="rgpd.html"
+              >Règlement général sur la protection des données</a
+            >
+          </li>
+          <li class="lien"><a href="àpropos.html">A propos de nous</a></li>
+        </ul>
+      </div>
+    </footer>
     <script src="Contact.js"></script>
   </body>
 </html>

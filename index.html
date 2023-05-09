@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="grid.css" />
     <title>Ducsman Accueil</title>
   </head>
-
   <body>
     <header>
       <div class="wrapper">
@@ -26,7 +25,7 @@
             <li><a href="index.html#AncreBoutique">BOUTIQUE</a></li>
             <li><a href="àpropos.html">A PROPOS</a></li>
             <li>
-              <a href="Contact.html" id="btn.Contact">CONTACT</a>
+              <a href="Contact.html" id="btnContact">CONTACT</a>
             </li>
             <li><a href="#">SAV</a></li>
           </ul>
@@ -61,7 +60,7 @@
               <p class="descriptionTexte">
                 Envie de nouveauté&nbsp;? Découvrez les tendances qui montent,
                 les derniers vêtements pour Homme et les nouveautés les plus
-                stylées.
+                élégantes.
               </p>
             </div>
           </div>
@@ -81,6 +80,7 @@
         </div>
       </div>
       <form>
+        <div class="premierLigne">
         <label for="tri">Trier par :</label>
         <select id="tri" name="tri">
           <option value="prix">Prix</option>
@@ -106,8 +106,8 @@
           <option value="chaussures">Chaussures</option>
           <option value="montres">Montres</option>
         </select>
-      
-          
+        </div>
+        <div class="deuxiemeLigne">  
         <label for="couleur">Couleur :</label>
         <select id="couleur" name="couleur">
           <option value="toutes">Toutes</option>
@@ -137,10 +137,12 @@
           <option value="50_a_100">50€ à 100€</option>
           <option value="plus_de_100">Plus de 100€</option>
         </select>
+        </div>
       
         
-      
+        <div class="buttonRecherche">
         <button type="submit">Rechercher</button>
+        </div>
       </form>
       
     </section>
