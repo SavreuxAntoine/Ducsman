@@ -26,3 +26,5 @@ window.onclick = function (event) {
     footer.classList.remove("blur");
   }
 };
+
+
