@@ -1,3 +1,5 @@
+/*Comporte aussi css de cgu*/
+
 .CGVpdf,
 .RGPDpdf {
   width: 60vw;
@@ -27,4 +29,15 @@ h1 {
   text-align: justify;
   font-size: larger;
   color: aliceblue;
+}
+
+.cgu {
+  width: 70%;
+  right: -10%;
+  position: relative;
+  margin-top: 2vw;
+  margin-left: 15%;
+  text-align: justify;
+  font-size: larger;
+  color: rgb(241, 236, 236);
 }
