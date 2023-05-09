@@ -49,7 +49,7 @@ font-family: 'Amiri', serif;
   color: #fff;
   text-align: center;
   padding-bottom: 0;
-  font-size: 6em;
+  font-size: 6rem;
   font-weight: 300;
 }
 .wrapper .sidebar h3 {
@@ -57,7 +57,7 @@ font-family: 'Amiri', serif;
   color: #fff;
   text-align: center;
   margin-bottom: 30px;
-  font-size: 2em;
+  font-size: 2rem;
   font-weight: 300;
   transform: translateY(-50px);
 }
@@ -75,6 +75,7 @@ font-family: 'Amiri', serif;
   display: block;
   font-weight: bold;
   font-size: 1.3em;
+  padding: 1%;
 }
 
 .wrapper .sidebar ul li:hover a {
@@ -90,7 +91,7 @@ font-family: 'Amiri', serif;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 2em;
+  margin-top: 10%;
   font-size: 2em;
   gap: 1em;
 }
@@ -137,4 +138,135 @@ small {
 }
 footer .lien :hover {
   color: #233747;
+}
+
+/* ooooooooooooooooooooo */
+
+#category-banner-wrapper {
+  background-color: #f9f9f9;
+  margin-left: 20%;
+}
+
+.textNouveautee {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.titreNouveautee {
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.descriptionText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
+.containerText {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.descriptionTexte {
+  margin: 0;
+}
+
+.buttonNews {
+  display: inline-block;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px;
+  padding: 20px;
+  background-color: #ffffff;
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+}
+
+.listNouveautes {
+  display: flex;
+  list-style-type: none;
+  margin: 5% 0;
+  padding: 0;
+}
+
+.nouveautés {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  border-radius: 20px;
+  padding: 8px 16px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #000000;
+  transition: background-color 0.2s;
+}
+
+.nouveautés:hover {
+  background-color: #333333;
+}
+
+.containerNouveautee {
+  display: inline-block;
+  justify-content: space-between;
+  align-items: center;
+}
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+label {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+select,
+input[type="text"] {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+select:focus,
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: 0 0 4px #ccc;
+}
+
+button {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #555;
 }
