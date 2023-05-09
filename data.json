@@ -9,27 +9,34 @@
     {
       "image": "img/cost_bordeau.jpg",
       "price": "4200 €",
-      "composition": "Cachemire"
+      "composition": "Cachemire",
+      "description": "Costume bleu ufbortzhvbiuhn u bevnacuv bnr ahvr auegnur ruaga ubyaefnvrueb artben lin"
     },
     {
       "image": "img/vestenoire.jpg",
       "price": "33 €",
-      "composition": "Coton"
+      "composition": "Coton",
+      "description": "Costume bleu ufbortzhvbiuhn u bevnacuv bnr ahvr auegnur ruaga ubyaefnvrueb artben lin"
     },
     {
-        "image": "img/cost_grisclair.jpg",
-        "price": "24 €",
-        "composition": "Lin"
+      "image": "img/cost_grisclair.jpg",
+      "price": "24 €",
+      "composition": "Lin",
+      "description": "Costume bleu ufbortzhvbiuhn u bevnacuv bnr ahvr auegnur ruaga ubyaefnvrueb artben lin"
+
     },
      {
-        "image": "img/cost_bordeauclair.jpg",
-        "price": "42 €",
-        "composition": "Cachemire"
+      "image": "img/cost_bordeauclair.jpg",
+      "price": "42 €",
+      "composition": "Cachemire",
+      "description": "Costume bleu ufbortzhvbiuhn u bevnacuv bnr ahvr auegnur ruaga ubyaefnvrueb artben lin"
+
       },
       {
-        "image": "img/glcost_bleu.jpg",
-        "price": "33 €",
-        "composition": "Coton"
+      "image": "img/glcost_bleu.jpg",
+      "price": "33 €",
+      "composition": "Coton",      
+      "description": "Costume bleu ufbortzhvbiuhn u bevnacuv bnr ahvr auegnur ruaga ubyaefnvrueb artben lin"
       }
   ]
   
