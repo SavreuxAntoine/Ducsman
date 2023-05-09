@@ -230,6 +230,7 @@ form {
   padding: 20px;
   background-color: #f2f2f2;
   height: 30vh;
+  width: 100%;
 }
 
 label {
@@ -243,6 +244,8 @@ label {
 select,
 input[type="text"] {
   display: block;
+  justify-content: center;
+  text-align: center;
   width: 100%;
   padding: 8px;
   border: 1px solid #ccc;
