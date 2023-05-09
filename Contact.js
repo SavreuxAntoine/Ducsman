@@ -26,6 +26,3 @@ window.onclick = function (event) {
     footer.classList.remove("blur");
   }
 };
-function fermer() {
-  return index.html;
-}
