@@ -31,7 +31,8 @@ h1 {
   color: aliceblue;
 }
 
-.cgu {
+.cgu,
+.mentionslégales {
   width: 70%;
   right: -10%;
   position: relative;
@@ -40,4 +41,9 @@ h1 {
   text-align: justify;
   font-size: larger;
   color: rgb(241, 236, 236);
+}
+
+.mentionslégales {
+  margin-top: -4vw;
+  margin-bottom: 2vw;
 }
