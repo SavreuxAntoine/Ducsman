@@ -220,12 +220,9 @@ footer .lien :hover {
   align-items: center;
 }
 form {
-  display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  max-width: 800px;
   padding: 20px;
   background-color: #f2f2f2;
 }
@@ -233,7 +230,6 @@ form {
 label {
   display: block;
   width: 100%;
-  margin-bottom: 10px;
   font-weight: bold;
   color: #333;
 }
