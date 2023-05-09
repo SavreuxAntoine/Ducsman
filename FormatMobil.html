@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amiri:ital@1&family=Italianno&family=Maitree:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <link rel="stylesheet" href="Mobil.css" />
+
+    <title>Ducsman Accueil</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="wrapper">
+        <div class="sidebar">
+          <h2>Ducsman</h2>
+          <h3>Sapés comme jamais.</h3>
+          <ul>
+            <li><a href="index.html#AncreBoutique">BOUTIQUE</a></li>
+            <li><a href="àpropos.html">A PROPOS</a></li>
+            <li>
+              <a href="Contact.html" id="btn.Contact">CONTACT</a>
+            </li>
+            <li><a href="#">SAV</a></li>
+          </ul>
+
+          <iframe
+            class="maps"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5249.611450379503!2d2.3360993543718576!3d48.86191489795094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e18a5f84801%3A0x6eb5daa624bdebd2!2sLes%20Halles%2C%2075001%20Paris%2C%20France!5e0!3m2!1sfr!2sus!4v1683203673143!5m2!1sfr!2sus"
+            width="90%"
+            height="30%"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          >
+          </iframe>
+          <div class="social_media">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <video autoplay muted loop class="GIF">
+        <source src="video/Video bannière.mp4" type="video/mp4" />
+      </video>
+    </header>
+    <section id="category-banner-wrapper" class="wrapperNews">
+      <div class="textNouveautee">
+        <h3 class="titreNouveautee">Nouveautés</h3>
+        <div class="descriptionText">
+          <div class="buttonNews" role="button" tabindex="0">
+            <div class="containerText">
+              <p class="descriptionTexte">
+                Envie de nouveauté&nbsp;? Découvrez les tendances qui montent,
+                les derniers vêtements pour Homme et les nouveautés les plus
+                stylées.
+              </p>
+            </div>
+          </div>
+          <div class="containerNouveautee">
+            <ul class="listNouveautes">
+              <li>
+                <a class="nouveautés" href="#"> Costumes</a>
+              </li>
+              <li>
+                <a class="nouveautés" href="#"> Chaussures</a>
+              </li>
+              <li>
+                <a class="nouveautés" href="#"> Accessoires</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <form>
+        <label for="tri">Trier par :</label>
+        <select id="tri" name="tri">
+          <option value="prix">Prix</option>
+          <option value="popularite">Popularité</option>
+          <option value="nouveaute">Nouveauté</option>
+        </select>
+
+        <label for="categorie">Catégorie :</label>
+        <select id="categorie" name="categorie">
+          <option value="tous">Tous</option>
+          <option value="vetements">Vêtements</option>
+          <option value="chaussures">Chaussures</option>
+          <option value="accessoires">Accessoires</option>
+        </select>
+
+        <label for="type">Type de produit :</label>
+        <select id="type" name="type">
+          <option value="tous">Tous</option>
+          <option value="chemises">Chemises</option>
+          <option value="pantalons">Pantalons</option>
+          <option value="chaussures">Chaussures</option>
+          <option value="montres">Montres</option>
+        </select>
+
+        <label for="couleur">Couleur :</label>
+        <select id="couleur" name="couleur">
+          <option value="toutes">Toutes</option>
+          <option value="noir">Noir</option>
+          <option value="blanc">Blanc</option>
+          <option value="bleu">Bleu</option>
+          <option value="rouge">Rouge</option>
+        </select>
+
+        <label for="taille">Taille :</label>
+        <select id="taille" name="taille">
+          <option value="toutes">Toutes</option>
+          <option value="s">S</option>
+          <option value="m">M</option>
+          <option value="l">L</option>
+          <option value="xl">XL</option>
+        </select>
+
+        <label for="prix">Gamme de prix :</label>
+        <select id="prix" name="prix">
+          <option value="tous">Tous</option>
+          <option value="moins_de_50">Moins de 50€</option>
+          <option value="50_a_100">50€ à 100€</option>
+          <option value="plus_de_100">Plus de 100€</option>
+        </select>
+
+        <button type="submit">Rechercher</button>
+      </form>
+    </section>
+    <main>
+      <!-- LISTE DES ARTICLES -->
+      <section class="article">
+        <div id="AncreBoutique"></div>
+        <div class="article-preview"></div>
+      </section>
+    </main>
+    <footer>
+      <small>Copyright © 2023 Simplon. Tous droits réservés.</small>
+      <div class="Placemment">
+        <ul class="liensCliquables">
+          <li class="lien">
+            <a href="CGU.html">Conditions générales d'utilisation</a>
+          </li>
+          <li class="lien">
+            <a href="CGV.html">Conditions générales de vente</a>
+          </li>
+          <li class="lien">
+            <a href="rgpd.html"
+              >Règlement général sur la protection des données</a
+            >
+          </li>
+          <li class="lien"><a href="àpropos.html">A propos de nous</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
