@@ -27,4 +27,6 @@ window.onclick = function (event) {
   }
 };
 
-
+function fermer() {
+  return document.body.innerHTML;
+}
