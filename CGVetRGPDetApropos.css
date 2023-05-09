@@ -17,3 +17,14 @@ h1 {
   font-weight: 900;
   font-size: 180%;
 }
+
+.apropos {
+  width: 70%;
+  right: -10%;
+  position: relative;
+  margin-top: 2vw;
+  margin-left: 15%;
+  text-align: justify;
+  font-size: larger;
+  color: aliceblue;
+}
