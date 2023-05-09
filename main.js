@@ -11,13 +11,14 @@ container = document.querySelector(".article-preview");
 listeArticle = "";
 
 // La fonction article génére un article seulement
-function article(image, price, composition) {
+function article(image, image2, price, composition, description) {
   return `<div class="article-preview-grid">
       <div class="container_info">
         <span>${composition}</span>
       </div>
       <img class="image" src="${image}" alt="article" />
       <span class="container_price">${price}</span>
+      <span class="container_description">${description}</span>
     </div>`;
 }
 // Après l'envoie de la request
@@ -28,9 +29,12 @@ request.onload = function () {
   // On parcour les éléments du tableau
   for (i = 0; i < data.length; i++) {
     // On concaténe un article sur la liste
-    listeArticle = listeArticle + article(data[i].image, data[i].price, data[i].composition);
+    listeArticle = listeArticle + article(data[i].image, data[i].image2, data[i].price, data[i].composition, data[i].description);
   }
 
   // On inject le html dans le container
   container.innerHTML = listeArticle;
 };
+
+//<img class="image2" src="${image2}" alt="article" />
+

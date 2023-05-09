@@ -1,33 +1,35 @@
 [
     {
-      "image": "img/acess_bracelet.png",
+      "image": "img/cost_bleu.jpg",
+      "image2": "img/cost_bordeau.jpg",
       "price": "24 €",
-      "composition": "Lin"
+      "composition": "Lin",
+      "description": "Costume bleu ufbortzhvbiuhn u bevnacuv bnr ahvr auegnur ruaga ubyaefnvrueb artben lin"
     },
     {
-      "image": "img/chaussures_marron.jpeg",
+      "image": "img/cost_bordeau.jpg",
       "price": "4200 €",
-      "composition": "cachemire"
+      "composition": "Cachemire"
     },
     {
-      "image": "img/chaussures_marron.jpeg",
+      "image": "img/vestenoire.jpg",
       "price": "33 €",
-      "composition": "coton"
+      "composition": "Coton"
     },
     {
-        "image": "img/chaussures_marron.jpeg",
+        "image": "img/cost_grisclair.jpg",
         "price": "24 €",
         "composition": "Lin"
     },
      {
-        "image": "img/chaussures_marron.jpeg",
+        "image": "img/cost_bordeauclair.jpg",
         "price": "42 €",
-        "composition": "cachemire"
+        "composition": "Cachemire"
       },
       {
-        "image": "img/chaussures_marron.jpeg",
+        "image": "img/glcost_bleu.jpg",
         "price": "33 €",
-        "composition": "coton"
+        "composition": "Coton"
       }
   ]
   
