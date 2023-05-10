@@ -83,8 +83,12 @@
     .article-preview{
       display: inline-block;
       margin-right:2rem;
+      margin-bottom: 2rem;
     }
-    .arrowUp{
+    .arrowUp, .logoPanier{
       display: none;
+    }
+    .article-preview-grid{
+      padding-bottom: 15px;
     }
   }
