@@ -26,9 +26,9 @@ font-family: 'Amiri', serif;
   display: flex;
   position: relative;
 }
-header{
+header {
   margin-bottom: 0;
-  padding-bottom:  0;
+  padding-bottom: 0;
   height: 40vh;
 }
 .wrapper .sidebar {
@@ -40,8 +40,6 @@ header{
 }
 
 .wrapper .sidebar a {
-  
-  
   text-decoration: none;
   color: white;
   display: block;
@@ -72,7 +70,6 @@ header{
   padding: 15px;
   margin-left: 1rem;
   padding: 0;
-  
 }
 
 .wrapper .sidebar ul li a {
@@ -132,7 +129,7 @@ header .GIF {
   background-size: cover;
   object-fit: cover;
   margin-bottom: 0;
-  padding-bottom:0 ;
+  padding-bottom: 0;
 }
 
 .footer {
@@ -172,7 +169,7 @@ header .GIF {
   color: #fff;
   transition: all 0.2s ease-in-out;
 }
-.links li a:hover{
+.links li a:hover {
   color: #e62ab7;
   transform: scale(1.5);
 }
@@ -204,7 +201,7 @@ button {
   margin-bottom: 10px;
 }
 
-.Copyright{
+.Copyright {
   color: #fff;
   margin-left: 20%;
   justify-content: center;
@@ -221,7 +218,7 @@ button {
 .textNouveautee {
   display: flex;
   flex-direction: column;
-  margin: 0 ;
+  margin: 0;
   text-align: center;
   color: #000000;
 }
@@ -229,7 +226,7 @@ button {
 .titreNouveautee {
   font-size: 40px;
   font-weight: bold;
-  color:white ;
+  color: white;
 }
 
 .descriptionText {
@@ -254,7 +251,7 @@ button {
   display: inline-block;
   border-radius: 3px;
   padding: 10px;
-  background-color: #4b5763;  
+  background-color: #4b5763;
   max-width: 800px;
   width: 100%;
   text-align: center;
@@ -289,7 +286,6 @@ button {
   color: #000000;
   font-weight: bold;
 }
-
 
 .formHead {
   display: grid;
@@ -331,7 +327,6 @@ select:focus,
 input[type="text"]:focus {
   outline: none;
   box-shadow: 0 0 4px #ccc;
-  
 }
 
 button {
@@ -354,13 +349,42 @@ button:hover {
 }
 
 .premierLigne,
-.deuxiemeLigne{
+.deuxiemeLigne {
   display: flex;
   width: 100%;
   gap: 3%;
 }
-.buttonRecherche{
+.buttonRecherche {
   display: flex;
   justify-content: center;
   width: 100%;
+}
+
+/* Css de la page article  */
+
+#PageArticle main {
+  margin-left: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+#PageArticle .image {
+  width: 50%;
+  height: 80%;
+  object-fit: con A tain;
+  margin: 0 auto;
+}
+#PageArticle .image img {
+  width: 100%;
+  margin-top: 10%;
+}
+
+#PageArticle .article {
+  width: 50%;
+  display: block;
+  padding: 5%;
+}
+
+#PageArticle .article p {
+  font-size: 1.3rem;
+  text-align: justify;
 }
