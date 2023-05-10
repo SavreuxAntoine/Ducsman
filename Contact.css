@@ -44,7 +44,7 @@ div#myModal {
   padding: 2%;
   box-shadow: 0px 0px 10px 10px rgba(15, 15, 15, 0.836), 0 0 10px 0 #ffd700;
   z-index: 1;
-  overflow: auto;
+
 }
 
 section form div.contactLigne {
