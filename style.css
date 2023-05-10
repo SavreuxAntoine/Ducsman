@@ -34,19 +34,9 @@ header{
 .wrapper .sidebar {
   width: 20%;
   height: 100%;
-  background: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0.15) 0%,
-      rgba(0, 0, 0, 0.15) 100%
-    ),
-    radial-gradient(
-        at top center,
-        rgba(255, 255, 255, 0.4) 0%,
-        rgba(0, 0, 0, 0.4) 120%
-      )
-      #989898;
-  background-blend-mode: multiply, multiply;
+  background: #4b5763;
   position: fixed;
+  border-right: 5px solid white;
 }
 
 .wrapper .sidebar a {
@@ -82,6 +72,7 @@ header{
   padding: 15px;
   margin-left: 1rem;
   padding: 0;
+  
 }
 
 .wrapper .sidebar ul li a {
@@ -143,28 +134,82 @@ header .GIF {
   margin-bottom: 0;
   padding-bottom:0 ;
 }
-footer {
-  justify-content: center;
-  height: 15em;
+
+.footer {
+  display: flex;
+  color: #fffefe;
+  padding: 2rem 0;
   margin-left: 20%;
-  background: #5e5e5e;
-}
-small {
-  padding-left: 15%;
-}
-.liensCliquables {
-  margin-top: 5%;
-  justify-content: center;
-  padding-left: 20%;
-}
-.lien a {
-  color: #ffffff;
-  text-align: center;
-}
-footer .lien :hover {
-  color: #233747;
+  height: auto;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #233747;
+  border-top: 5px solid white;
 }
 
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.footer h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.links li {
+  list-style: none;
+  line-height: 30px;
+  text-align: center;
+  font-weight: 100;
+}
+
+.links li a {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+.links li a:hover{
+  color: #e62ab7;
+  transform: scale(1.5);
+}
+.Enregistrement {
+  display: flex;
+  flex-direction: column;
+}
+
+.Enregistrement input {
+  padding: 10px;
+  font-weight: 100;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 12px;
+  margin: 1rem 0;
+}
+
+button {
+  border: none;
+  padding: 12px 0;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.Tel {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.Copyright{
+  color: #fff;
+  margin-left: 20%;
+  justify-content: center;
+  text-align: center;
+}
 /* ooooooooooooooooooooo */
 
 #category-banner-wrapper {
@@ -174,13 +219,14 @@ footer .lien :hover {
 }
 
 .textNouveautee {
+  display: flex;
+  flex-direction: column;
   margin: 0 ;
   text-align: center;
   color: #000000;
 }
 
 .titreNouveautee {
-  margin-bottom: 10px;
   font-size: 40px;
   font-weight: bold;
   color:white ;
@@ -207,7 +253,7 @@ footer .lien :hover {
 .buttonNews {
   display: inline-block;
   border-radius: 3px;
-  padding: 20px;
+  padding: 10px;
   background-color: #4b5763;  
   max-width: 800px;
   width: 100%;
@@ -218,7 +264,7 @@ footer .lien :hover {
 .listNouveautes {
   display: flex;
   list-style-type: none;
-  margin: 5% 0;
+  margin: 0;
   padding: 0;
 }
 
@@ -244,13 +290,7 @@ footer .lien :hover {
   font-weight: bold;
 }
 
-.containerNouveautee {
-  display: inline-block;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  height: 100px;
-}
+
 .formHead {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
@@ -258,7 +298,7 @@ footer .lien :hover {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin: 0 ;
+  padding-right: 20px;
   background-color: #233747;
   height: 30vh;
   width: 100%;
@@ -284,13 +324,14 @@ input[type="text"] {
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 16px;
-  height: 50px;
+  height: 40px;
 }
 
 select:focus,
 input[type="text"]:focus {
   outline: none;
   box-shadow: 0 0 4px #ccc;
+  
 }
 
 button {
