@@ -403,7 +403,7 @@ button:hover {
   }
 
   .wrapper .sidebar {
-    width: 6%;
+    width: 12%;
   }
   .wrapper .sidebar a,
   .wrapper .sidebar h2,
@@ -431,4 +431,15 @@ button:hover {
   .burgerMenu svg {
     font-size: 50px;
   }
+  #PageArticle main{
+    display: inline-block;
+  }
+  #PageArticle .article{
+    width: 100%;
+  }
+  #PageArticle .image {
+    width: 100%;
+    
+  }
 }
+
