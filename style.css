@@ -364,3 +364,21 @@ button:hover {
   justify-content: center;
   width: 100%;
 }
+
+@media screen and (max-width: 390px) {
+  header {
+    height: 1vh;
+  }
+  header .GIF {
+    display: none;
+  }
+  .wrapper .sidebar{
+    width: 8%;
+  }
+  .textNouveautee{
+  
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+}
