@@ -5,7 +5,10 @@
   display: block;
 }
 
-
+.container_price .plusPanier{
+  width: 25px;
+  height: 25px;
+}
 .logoPanier{
   position: sticky;
   top: 5%;
@@ -68,6 +71,7 @@
   font-weight: bold;
   position: relative;
   z-index: 101;
+  justify-content: space-between;
 }
 .article{
   font-family: "Maitree", serif;
