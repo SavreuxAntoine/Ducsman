@@ -115,7 +115,7 @@ header{
   width: 50px;
   height: 50px;
   text-align: center;
-  color: #000000;
+  color: #ffffff;
 }
 
 .social_media a i {
@@ -363,4 +363,22 @@ button:hover {
   display: flex;
   justify-content: center;
   width: 100%;
+}
+
+@media screen and (max-width: 390px) {
+  header {
+    height: 1vh;
+  }
+  header .GIF {
+    display: none;
+  }
+  .wrapper .sidebar{
+    width: 8%;
+  }
+  .textNouveautee{
+  
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
 }
