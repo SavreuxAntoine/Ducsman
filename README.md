@@ -10,7 +10,7 @@ Nous avons travaillé, conformément à la maquette fournie par le client et sel
 _Méthodologie de travail:
 Afin de mener à bien ce projet, nous avons procédé comme suit :
 1. Déterminer les parties du projet et les inscrire dans Trello.
-2. Répartitir les tâches selon les compétences de chacun.
+2. Répartir les tâches selon les compétences de chacun.
 3. Structurer le début de chaque page en HTML, et créer ensuite le CSS de celles-ci. Les lier.
 4. Coder nos parties respectives en effectuant des pull et push des fichiers sur GitHub en moitié ou fin de travail.
 5. Récupérer une version commune pour y ajouter les media queries.

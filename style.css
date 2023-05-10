@@ -409,6 +409,7 @@ button:hover {
   margin-left: 20%;
   display: flex;
   justify-content: space-around;
+  color: #fdfdfd;
 }
 #PageArticle .image {
   width: 50%;
