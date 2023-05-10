@@ -79,3 +79,13 @@
   .container_description::-webkit-scrollbar {
     display: none;
   }
+  @media screen and (max-width: 390px){
+    .article-preview{
+      display: inline-block;
+      margin-right:2rem;
+    }
+  
+    .arrowUp{
+      display: none;
+    }
+  }
