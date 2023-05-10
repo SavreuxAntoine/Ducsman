@@ -363,6 +363,37 @@ button:hover {
   display: none;
 }
 
+/* Css de la page article  */
+
+#PageArticle main {
+  margin-left: 20%;
+  display: flex;
+  justify-content: space-around;
+  color: #fdfdfd;
+}
+#PageArticle .image {
+  width: 50%;
+  height: 80%;
+  object-fit: con A tain;
+  margin: 0 auto;
+}
+#PageArticle .image img {
+  width: 100%;
+  margin-top: 50%;
+  margin-left: 5%;
+}
+
+#PageArticle .article {
+  width: 50%;
+  display: block;
+  padding: 5%;
+}
+
+#PageArticle .article p {
+  font-size: 1.3rem;
+  text-align: justify;
+}
+
 @media screen and (max-width: 390px) {
   header {
     height: 1vh;
@@ -389,39 +420,15 @@ button:hover {
   .textNouveautee {
     display: flex;
     width: 100%;
-    padding-right: 0.5rem;
+    padding-right: 2rem;
   }
   .listNouveautes {
     display: inline-block;
   }
-}
-
-/* Css de la page article  */
-
-#PageArticle main {
-  margin-left: 20%;
-  display: flex;
-  justify-content: space-around;
-  color: #fdfdfd;
-}
-#PageArticle .image {
-  width: 50%;
-  height: 80%;
-  object-fit: con A tain;
-  margin: 0 auto;
-}
-#PageArticle .image img {
-  width: 100%;
-  margin-top: 10%;
-}
-
-#PageArticle .article {
-  width: 50%;
-  display: block;
-  padding: 5%;
-}
-
-#PageArticle .article p {
-  font-size: 1.3rem;
-  text-align: justify;
+  .formHead {
+    display: none;
+  }
+  .burgerMenu svg {
+    font-size: 50px;
+  }
 }
