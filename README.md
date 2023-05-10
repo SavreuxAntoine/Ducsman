@@ -9,7 +9,6 @@ Nous avons travaillé, conformément à la maquette fournie par le client et sel
 
 _Méthodologie de travail:
 Afin de mener à bien ce projet, nous avons procédé comme suit :
-
 1. Déterminer les parties du projet et les inscrire dans Trello.
 2. Répartitir les tâches selon les compétences de chacun.
 3. Structurer le début de chaque page en HTML, et créer ensuite le CSS de celles-ci. Les lier.
@@ -28,8 +27,8 @@ Binôme Caroline et Audrey: Recherche d'images pour le site, rédaction du HTML,
 Architecture HTML et CSS
 Afin d'éviter le mieux possible les conflits de style CSS entre les différentes pages, nous avons procédé comme suit :
 La feuille de style css est commune pour le HEADER et le FOOTER, de même pour la page principale et les articles.
-Nous avons élaboré une page CSS propre à la page "Contact" , et une commune pour les "CGV", "CGU", "RGPD", "à propos".
-Néanmoins, nous avons eu 1 problème suite à un sélecteur ayant le même nom, cela a perturbé l'esthétique de la page principale mais une bonne communication nous a ensuite permis de résoudre facilement le problème.
+Nous avons élaboré une page CSS propre à la page "Contact", et une commune pour les "CGV", "CGU", "RGPD", "à propos".
+Néanmoins, nous avons eu un problème suite à un sélecteur ayant le même nom, cela a perturbé l'esthétique de la page principale mais une bonne communication nous a ensuite permis de résoudre facilement le problème.
 
 _Contributeurs
 Théo
