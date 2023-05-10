@@ -17,7 +17,7 @@ function article(image, image2, price, composition, description) {
         <span>${composition}</span>
       </div>
       <img class="image" src="${image}" alt="article" />
-      <span class="container_price">${price}</span>
+      <span class="container_price">${price}<img class="plusPanier" src="img/plus.png" alt=""/></span>      
       <span class="container_description">${description}</span>
     </a>`;
 }

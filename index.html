@@ -10,15 +10,22 @@
       href="https://fonts.googleapis.com/css2?family=Amiri:ital@1&family=Italianno&family=Maitree:wght@300;600&display=swap"
       rel="stylesheet"
     />
-    <script src="https://kit.fontawesome.com/6fb0481450.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/6fb0481450.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="grid.css" />
+    <link rel="stylesheet" href="responsive.css">
     <title>Ducsman Accueil</title>
   </head>
   <body>
     <header>
       <div class="wrapper">
         <div class="sidebar">
+          <div class="burgerMenu">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z" fill="rgba(255,255,255,1)"></path></svg>
+         </div>
           <h2>Ducsman</h2>
           <h3>Sapés comme jamais.</h3>
           <ul>
@@ -44,7 +51,6 @@
             <a href="#"><i class="fab fa-facebook-f"></i></a>
             <a href="#"><i class="fab fa-twitter"></i></a>
             <a href="#"><i class="fab fa-instagram"></i></a>
-            
           </div>
         </div>
       </div>
@@ -140,26 +146,28 @@
       </form>
     </section>
     <main>
-      
       <!-- LISTE DES ARTICLES -->
       <section class="article">
-        <a class="Shop" href="#"><img class="logoPanier"src="img/panier.png" alt=""></a>
+        <a class="Shop" href="#"
+          ><img class="logoPanier" src="img/panier.png" alt=""
+        /></a>
         <div id="AncreBoutique"></div>
         <div class="article-preview"></div>
+        <a href="#category-banner-wrapper"><img class="arrowUp" src="img/icons8-slide-up-50.png" alt=""></a>
       </section>
     </main>
-    
+
     <footer>
       <div class="footer">
         <div class="box">
-          <h2>News Letter</h2>
+          <h2>Newsletter</h2>
           <form class="Enregistrement">
             <input
               type="email"
               name="email"
               id="email"
               placeholder="Entrez votre email"
-            >
+            />
             <button type="submit">Souscrire</button>
           </form>
         </div>
@@ -168,12 +176,18 @@
           <ul class="links">
             <li><a href="CGU.html"> Conditions générales d'utilisation </a></li>
             <li><a href="CGV.html"> Conditions générales de vente </a></li>
-            <li><a href="rgpd.html"> Règlement général sur la protection des données</a></li>
+            <li>
+              <a href="rgpd.html">
+                Règlement général sur la protection des données</a
+              >
+            </li>
             <li><a href="àpropos.html"> A propos de nous </a></li>
           </ul>
         </div>
       </div>
-      <div class="Copyright"> Copyright © 2023 Simplon. Tous droits réservés. </div>
+      <div class="Copyright">
+        Copyright © 2023 Simplon. Tous droits réservés.
+      </div>
     </footer>
 
     <script src="main.js"></script>

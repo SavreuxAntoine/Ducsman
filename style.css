@@ -112,7 +112,7 @@ header {
   width: 50px;
   height: 50px;
   text-align: center;
-  color: #000000;
+  color: #ffffff;
 }
 
 .social_media a i {
@@ -358,6 +358,42 @@ button:hover {
   display: flex;
   justify-content: center;
   width: 100%;
+}
+.burgerMenu {
+  display: none;
+}
+
+@media screen and (max-width: 390px) {
+  header {
+    height: 1vh;
+  }
+  header .GIF {
+    display: none;
+  }
+
+  .wrapper .sidebar {
+    width: 6%;
+  }
+  .wrapper .sidebar a,
+  .wrapper .sidebar h2,
+  .wrapper .sidebar h3,
+  .wrapper .sidebar ul li a,
+  .sidebar .maps,
+  .wrapper .sidebar .social_media {
+    display: none;
+  }
+  .burgerMenu {
+    display: flex;
+    position: sticky;
+  }
+  .textNouveautee {
+    display: flex;
+    width: 100%;
+    padding-right: 0.5rem;
+  }
+  .listNouveautes {
+    display: inline-block;
+  }
 }
 
 /* Css de la page article  */

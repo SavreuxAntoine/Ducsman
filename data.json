@@ -3,40 +3,40 @@
       "image": "img/cost_bleu.jpg",
       "image2": "img/cost_bordeau.jpg",
       "price": "350 €",
-      "composition": "Lin",
-      "description": "Costume bleu ufbortzhvbiuhn u bevnacuv bnr ahvr auegnur ruaga ubyaefnvrueb artben lin"
+      "composition": " Le Lin",
+      "description": "Un costume en lin bleu, fabriqué avec un tissu léger et respirant, offre un confort optimal tout en ajoutant une touche de sophistication décontractée à votre style. Son allure intemporelle et sa couleur apaisante en font un choix parfait pour les occasions estivales et les événements formels."
     },
     {
       "image": "img/cost_bordeau.jpg",
       "price": "4200 €",
-      "composition": "Cachemire",
-      "description": "Costume bleu ufbortzhvbiuhn u bevnacuv bnr ahvr auegnur ruaga ubyaefnvrueb artben lin"
+      "composition": "Le Cachemire",
+      "description": "Un costume rouge en cachemire, luxueux et raffiné, alliant élégance et chaleur. Sa couleur vibrante et sa matière douce confèrent une allure sophistiquée et confortable, idéale pour des occasions spéciales ou pour ajouter une touche de glamour à votre tenue quotidienne."
     },
     {
       "image": "img/vestenoire.jpg",
       "price": "330 €",
-      "composition": "Coton",
-      "description": "Costume bleu ufbortzhvbiuhn u bevnacuv bnr ahvr auegnur ruaga ubyaefnvrueb artben lin"
+      "composition": "Le Coton",
+      "description": "Le costume noir en coton, avec sa coupe impeccable et son tissu de qualité, allie confort et élégance. Polyvalent et intemporel, il est idéal pour les occasions formelles et professionnelles, offrant un style raffiné et une allure confiante."
     },
     {
       "image": "img/cost_grisclair.jpg",
       "price": "240 €",
-      "composition": "Lin",
-      "description": "Costume bleu ufbortzhvbiuhn u bevnacuv bnr ahvr auegnur ruaga ubyaefnvrueb artben lin"
+      "composition": "Le Synthétique",
+      "description": "Le costume beige en synthétique offre un look moderne et polyvalent. Fabriqué à partir d'un tissu léger et durable, il est confortable à porter tout en conservant une apparence élégante. Parfait pour les occasions décontractées ou professionnelles, ce costume ajoute une touche de sophistication à votre tenue."
 
     },
      {
       "image": "img/cost_bordeauclair.jpg",
       "price": "600 €",
-      "composition": "Cachemire",
-      "description": "Costume bleu ufbortzhvbiuhn u bevnacuv bnr ahvr auegnur ruaga ubyaefnvrueb artben lin"
+      "composition": "La Soie",
+      "description": "Le costume saumon en soie est une pièce d'exception, alliant couleur audacieuse et texture luxueuse. Fabriqué avec soin, il offre un confort inégalé et une esthétique unique. Parfait pour les événements spéciaux, ce costume apporte une touche de glamour et d'originalité à votre style."
 
       },
       {
       "image": "img/glcost_bleu.jpg",
       "price": "330 €",
-      "composition": "Coton",      
-      "description": "Costume bleu ufbortzhvbiuhn u bevnacuv bnr ahvr auegnur ruaga ubyaefnvrueb artben lin"
+      "composition": "La Laine",      
+      "description": "Le costume bleu en laine est un choix classique et élégant. Fabriqué à partir d'un tissu de qualité supérieure, il offre chaleur et confort tout en maintenant une silhouette impeccable. Polyvalent et intemporel, il est idéal pour les occasions formelles et professionnelles."
       }
   ]
   
