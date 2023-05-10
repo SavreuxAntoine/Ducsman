@@ -374,7 +374,7 @@ button:hover {
 #PageArticle .image {
   width: 50%;
   height: 80%;
-  object-fit: con A tain;
+  object-fit: contain;
   margin: 0 auto;
 }
 #PageArticle .image img {
