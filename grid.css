@@ -88,7 +88,7 @@
     .arrowUp, .logoPanier{
       display: none;
     }
-    .article-preview-grid{
+    a .article-preview-grid{
       padding-bottom: 15px;
     }
   }

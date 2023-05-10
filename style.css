@@ -439,7 +439,10 @@ button:hover {
   }
   #PageArticle .image {
     width: 100%;
-    
+
+  }
+  #category-banner-wrapper{
+    height: 45vh;
   }
 }
 
