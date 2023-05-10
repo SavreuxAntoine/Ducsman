@@ -40,8 +40,6 @@ header{
 }
 
 .wrapper .sidebar a {
-  
-  
   text-decoration: none;
   color: white;
   display: block;
@@ -364,6 +362,9 @@ button:hover {
   justify-content: center;
   width: 100%;
 }
+.burgerMenu{
+  display: none;
+}
 
 @media screen and (max-width: 390px) {
   header {
@@ -372,13 +373,23 @@ button:hover {
   header .GIF {
     display: none;
   }
+
   .wrapper .sidebar{
-    width: 8%;
+    width: 6%;
+  }
+  .wrapper .sidebar a, .wrapper .sidebar h2,.wrapper .sidebar h3, .wrapper .sidebar ul li a, .sidebar .maps, .wrapper .sidebar .social_media{
+    display: none;
+  }
+  .burgerMenu{
+    display: flex;
+    position: sticky;
   }
   .textNouveautee{
-  
-    align-items: center;
-    justify-content: center;
+    display: flex;
     width: 100%;
+    padding-right: 0.5rem;
+  }
+  .listNouveautes{
+    display: inline-block;
   }
 }
